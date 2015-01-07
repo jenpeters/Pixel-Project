@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{52F5F16F-1C4B-4160-AC62-A8E1C8037417}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Dage Project Installer", "Dage Project Installer\Dage Project Installer.isproj", "{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
+		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
+		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.CD_ROM|Win32.Build.0 = Release|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.Debug|Win32.Build.0 = Debug|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.DVD-5|Win32.Build.0 = Debug|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.Release|Win32.ActiveCfg = Release|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.Release|Win32.Build.0 = Release|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.Release|Win32.Deploy.0 = Release|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{52F5F16F-1C4B-4160-AC62-A8E1C8037417}.SingleImage|Win32.Build.0 = Release|Win32
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.CD_ROM|Win32.ActiveCfg = CD_ROM
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.CD_ROM|Win32.Build.0 = CD_ROM
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.Debug|Win32.ActiveCfg = DVD-5
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.Debug|Win32.Build.0 = DVD-5
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.DVD-5|Win32.ActiveCfg = DVD-5
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.DVD-5|Win32.Build.0 = DVD-5
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.Release|Win32.ActiveCfg = SingleImage
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.Release|Win32.Build.0 = SingleImage
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.Release|Win32.Deploy.0 = SingleImage
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.SingleImage|Win32.ActiveCfg = SingleImage
+		{EE24B6C2-3BB6-42EC-8C51-7883667CE8F7}.SingleImage|Win32.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

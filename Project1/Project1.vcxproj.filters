@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ammintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\apiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\apisetcconv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\armintr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\basetsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\bcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\bemapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\cderr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\cguid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\combaseapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\consoleapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ctype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\datetimeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\dde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ddeml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\debugapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\dlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\emmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\errhandlingapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\excpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\fibersapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\fileapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\guiddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\handleapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\heapapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ime_cmodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\imm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\immintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\inaddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\interlockedapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\intrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ioapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\jobapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\joystickapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\kernelspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\ktmtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\libloaderapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\lzexpand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\malloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mciapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\memoryapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\minwinbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mm3dnow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mmeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\mmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mmiscapi2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mmsyscom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\mmsystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\msxml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\namedpipeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\namespaceapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\nb30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ncrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\nmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\no_sal2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\OAIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\objbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ObjIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ObjIdlbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\ole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\Ole2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\OleAuto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\oleidl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\playsoundapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\pmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\poppack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\processenv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\processthreadsapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\processtopologyapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\PropIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\pshpack8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\realtimeapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\reason.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcasync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcdcep.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcndr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\rpcnsip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcnterr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\rpcsal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\SCardErr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\sdkddkver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\sdv_driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\securityappcontainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\securitybaseapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\servprov.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\setjmpex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\shellapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\smmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\CodeAnalysis\sourceannotations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_strict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\specstrings_undef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdarg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\stralign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\stringapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\synchapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\systemtopologyapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoolapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\threadpoollegacyapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\timeapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\timezoneapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\tmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\tvout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\Unknwn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\Unknwnbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\urlmon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\utilapiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\verrsrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winapifamily.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\WinBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\wincon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\wincrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\windef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\Windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winerror.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\wingdi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winioctl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winnetwk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\WinNls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winperf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winreg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winresrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\winsmcrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winspool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winsvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\WinUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\wnnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\wow64apiset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\wtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\shared\WTypesbase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xmmintrin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\BaseTsd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\bcrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\CdErr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\CGuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\CommDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Dde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Ddeml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Dlgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Guiddef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Ime_cmodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Imm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\inaddr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\kernelspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ktmtypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\LZExpand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Mcx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\MMSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\MsXml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Nb30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ncrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\OAIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ObjBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ObjIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ole.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Ole2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\OleAuto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\OleIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PopPack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PropIdl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PrSht.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PshPack1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PshPack2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PshPack4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\PshPack8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Reason.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Rpc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcAsync.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcDce.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcDceP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcNdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcNsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcNsip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\RpcNtErr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Rpcsal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\sal_supp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\SCardErr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\sdkddkver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\sdv_driverspecs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ServProv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\ShellAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\specstrings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\specstrings_strict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\specstrings_supp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\specstrings_undef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\StrAlign.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Tvout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Unknwn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\UrlMon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\VerRsrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinCon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinCrypt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinDef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Windows.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinEFS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinGDI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinIoCtl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinNetWk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinNls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinNT.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinPerf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinReg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinResrc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinSCard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinSmCrd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinSock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinSpool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinSvc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinVer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\wnnc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\commctrl.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\commdlg.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\dde.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\prsht.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.XML.dll" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winbase.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winnt.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\CommCtrl.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\commdlg.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\Dde.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\prsht.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinBase.Inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinNT.rh" />
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinUser.Inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\..\..\..\..\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Include\WinUser.rh" />
+  </ItemGroup>
+</Project>
